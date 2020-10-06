@@ -1,39 +1,102 @@
-.header-title {
-  height: 50px;
-  background-color: #red;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-#menu .container {
+#menu {
   background-color: #2c3e50;
   height: 80px;
 }
-
-#hero .container {
-  background-color: #1abc9c;
-  height: 480px;
+#menu h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 80px;
+  margin: 0;
+}
+#menu .header-button {
+  line-height: 80px;
+}
+#menu button {
+  background-color: transparent;
+}
+#menu button > span {
+  color: #888888;
+}
+#menu nav {
+  float: right;
+}
+#menu nav ul li a {
+  color: #fff;
+  font-weight: 700;
+  background-color: transparent;
+  display: inline;
+  line-height: 80px;
 }
 
-#portfolio .container {
+#hero {
+  background-color: #1abc9c;
+}
+#hero .hero-copy {
+  text-align: center;
+  padding: 5px;
+}
+#hero img {
+  width: 20rem;
+}
+#hero h1 {
+  color: #fff;
+  font-weight: 700;
+}
+.star-divisor {
+  color: #fff;
+  height: 40px;
+}
+.star-divisor .rule {
+  display: inline-block;
+  height: 0.5rem;
+  width: 10rem;
+  background-color: #fff;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.star-divisor .glyphicon-star {
+  width: 5rem;
+  font-size: 3rem;
+  line-height: 40px;
+  vertical-align: middle;
+}
+#hero h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#portfolio {
   background-color: #fff;
   height: 2400px;
 }
 
-#about .container {
+#about {
   background-color: #1abc9c;
   height: 640px;
 }
 
-#contact .container {
+#contact {
   background-color: #fff;
   height: 560px;
 }
 
-#info .container {
+#info {
   background-color: #3a546d;
   height: 480px;
 }
 
-#copyright .container {
+#copyright {
   background-color: #2c3e50;
   height: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  #hero h2 {
+    font-size: 1.3rem;
+  }
 }
