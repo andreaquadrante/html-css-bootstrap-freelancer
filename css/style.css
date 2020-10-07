@@ -17,6 +17,9 @@ h2 {
   line-height: 80px;
   margin: 0;
 }
+#menu a:hover {
+  text-decoration: none;
+}
 #menu .header-button {
   line-height: 80px;
 }
@@ -35,6 +38,9 @@ h2 {
   background-color: transparent;
   display: inline;
   line-height: 80px;
+}
+#menu nav ul li a:hover {
+  background-color: #1abc9c;
 }
 
 #hero {
@@ -109,6 +115,10 @@ h2 {
   color: #fff;
   background-color: transparent;
 }
+#about button:hover {
+  background-color: #fff;
+  color: #1abc9c;
+}
 
 #contact {
   background-color: #fff;
@@ -126,6 +136,9 @@ h2 {
   color: #fff;
   font-weight: 600;
   background-color: #1abc9c;
+}
+#contact form > button:hover {
+  background-color: #3a546d;
 }
 #contact .form-control {
   border-radius: 0px;
@@ -162,8 +175,14 @@ h2 {
   margin-left: 5px;
   margin-right: 5px;
 }
+#info .social-button:hover {
+  background-color: #fff;
+}
 #info .social-button > a {
   color: #fff;
+}
+#info .social-button > a:hover {
+  color: #3a546d;
 }
 #info .social-button > i {
   line-height: 40px;
