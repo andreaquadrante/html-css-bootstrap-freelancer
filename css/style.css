@@ -26,6 +26,9 @@ h2 {
 #menu button {
   background-color: transparent;
 }
+#menu button:hover {
+  background-color: #fff;
+}
 #menu button > span {
   color: #888888;
 }
